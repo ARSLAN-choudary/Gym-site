@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slam gym </title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <style>
+        @import url(css/bootstrap.min.css);
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            background-color: black;
+        }
+        /* navbar css */
+        nav{
+            background-color: aliceblue;
+            display: flex;
+            justify-content: space-between;
+        }
+        nav ul{
+           padding-top: 15px; 
+           
+        }
+        .navbar-nav{
+            padding-left: 100px;
+        }
+
+        nav ul li{
+            padding-inline: 10px;
+        }
+        nav ul li:hover{
+            background-color: red;
+            transition: 0.5s;
+            border-radius: 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+        
+        }
+        nav .logo{
+            font-family:fantasy ;
+            font-size:50px;
+        }
+        nav .logo span{
+            color: red;
+            margin-left: -10px;
+        }
+
+           /* section css */
+        .img{
+            background-image: url(img/wallpaperflare.com_wallpaper.jpg);
+            background-size:cover;
+            background-repeat: no-repeat;
+            height:auto;
+        }
+        #txt{
+            color: red;
+             font-size: 60px;
+             font-weight: bolder;
+             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        #txtrr{
+            color: red;
+             font-size: 60px;
+             font-weight: bolder;
+             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+             margin-top: -30px;
+        }
+        #txtee{
+            color: aliceblue;
+            font-size: 60px;
+             font-weight: bolder;
+             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        button{
+            width: 200px;
+            color: red;
+        }
+        h3{
+            font-size: 50px;
+            color: aliceblue;
+            font-weight: bolder;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+             /* cards css */
+        .card{
+            
+            background-color: rgb(37, 36, 36)
+        }
+        svg{
+            margin-left: 32px;
+            
+        }
+        #cardtxt{
+            color:aliceblue;
+            font-size: 15px;
+            font-weight: bold;
+            padding-top: 20px;
+        }
+        #crdtext{
+            color: aliceblue;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+            
+        }
+        .text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: serif;
+    padding-top: 40px;
+}
+.card {
+     align-items: center;
+    background-color: rgb(37, 36, 36);
+    height: auto;
+}
+.card-text{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.prices{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.scndcared{
+    background-color:#480000;
+    border: -2px;
+    border-color: white;
+}        
+.d-grid {
+    display: grid!important;
+    justify-content: center;
+    padding-top: 70px;
+}
+/* media quries */
+@media(max-width:769px) {
+   img{
+    width: 100%;
+   }
+}
+@media(max-width:769px) {
+   #ending-cards{
+    display: table-row;
+    
+   }
+}
+
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="logo px-5 me-5 ">
+              S <span>L</span>AM
+            </div>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynavbar"aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav ms-auto ">
+                <li><a href="#"class="mx-3"> ABOUT US</a></li>
+                <li><a href="#"class="mx-3"> TRAINING PROGRAMME</a></li>
+                <li><a href="#"class="mx-3"> Membership</a></li>
+                <li><a href="#"class="mx-3"> Community</a></li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col img ">
+              <p id="txt">SPORTS</p><p id="txtrr"> LIBERATION</p><SPan id="txtee">AESTHETICS<span> <p id="txtyy"> MUSCLES</P>
+                <button type="button" class="btn btn-danger">JOINT NOW</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <h3>About Us</h3>
+                <p class="h5 text-white" id="pergraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur id labore culpa consectetur totam repellendus. Quisquam, deserunt ab! Voluptatum nobis ut magnam at voluptatem excepturi quas ratione recusandae porro esse illo, quis, enim autem facilis eos dolores </p>
+            </div>
+        </div>
+        <div class="row px-5 py-5">
+            <div class="col py-3">
+                <a href="#">
+                <div class="card " id="upper-card1">
+                    <div class="card-body ">
+                        <svg width="80px" height="80px" style="color: red" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M104 96h-48C42.75 96 32 106.8 32 120V224C14.33 224 0 238.3 0 256c0 17.67 14.33 32 31.1 32L32 392C32 405.3 42.75 416 56 416h48C117.3 416 128 405.3 128 392v-272C128 106.8 117.3 96 104 96zM456 32h-48C394.8 32 384 42.75 384 56V224H256V56C256 42.75 245.3 32 232 32h-48C170.8 32 160 42.75 160 56v400C160 469.3 170.8 480 184 480h48C245.3 480 256 469.3 256 456V288h128v168c0 13.25 10.75 24 24 24h48c13.25 0 24-10.75 24-24V56C480 42.75 469.3 32 456 32zM608 224V120C608 106.8 597.3 96 584 96h-48C522.8 96 512 106.8 512 120v272c0 13.25 10.75 24 24 24h48c13.25 0 24-10.75 24-24V288c17.67 0 32-14.33 32-32C640 238.3 625.7 224 608 224z" fill="red"></path></svg>
+                        <p id="cardtxt" class="text-center">Hgh-quality</p><span id="crdtext" >Equipments</span>
+                    </div>
+                  </div>
+                </a>
+            </div>
+            <div class="col py-3">
+                <a href="#">
+                <div class="card " id="upper-card2" >
+                    <div class="card-body ">
+                        <svg width="80px" height="80px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><style>.cls-1{fill:red}.cls-2{fill:#d1e6e9}.cls-3{fill:#a1d8df}.cls-4{fill:#68c7d3}</style></defs><g id="Bench_Press" data-name="Bench Press"><path class="cls-1" d="M1 28h30v2H1zM12 21h8a1 1 0 0 1 1 1v2H11v-2a1 1 0 0 1 1-1z"/><path class="cls-2" d="M14 24h4v4h-4z"/><path class="cls-3" d="M7 2h2v26H7z"/><path class="cls-3" transform="rotate(-180 24 15)" d="M23 2h2v26h-2z"/><path class="cls-2" d="M2 7h28v2H2z"/><rect class="cls-1" x="4" y="3" width="3" height="10" rx="1"/><rect class="cls-4" x="1" y="5" width="3" height="6" rx="1"/><rect class="cls-1" x="25" y="3" width="3" height="10" rx="1" transform="rotate(-180 26.5 8)"/><rect class="cls-4" x="28" y="5" width="3" height="6" rx="1" transform="rotate(-180 29.5 8)"/></g></svg>
+                        <p id="cardtxt" class="text-center">Personal training</p><span id="crdtext" >service</span>
+                    </div>
+                  </div>
+                </a>
+            </div>
+            <div class="col py-3">
+                <a href="#">
+                <div class="card" >
+                    <div class="card-body ">
+                       <svg width="80px"height="80px" xmlns="http://www.w3.org/2000/svg" width="64" height="64" xml:space="preserve"><path fill="red" d="M27 31.5a2 2 0 0 1 2 2c0 1.11-.89 2-2 2a2 2 0 1 1 0-4z"/><path fill="#5D9CEC" d="M2 61.5v-53h20v53H2zm5-26c1.11 0 2-.89 2-2a2 2 0 1 0-2 2zM22 61.5v-53h20v53H22zm5-26c1.11 0 2-.89 2-2a2 2 0 1 0-2 2z"/><path fill="#656D78" d="M47 31.5a2 2 0 0 1 2 2c0 1.11-.89 2-2 2a2 2 0 1 1 0-4z"/><path fill="#4A89DC" d="M42 8.5H2v-6h60v6z"/><path fill="#5D9CEC" d="M42 61.5v-53h20v53H42zm5-26c1.11 0 2-.89 2-2a2 2 0 1 0-2 2z"/><path fill="#656D78" d="M7 31.5a2 2 0 0 1 2 2c0 1.11-.89 2-2 2a2 2 0 1 1 0-4z"/><g><path d="M22 62.5H1.999a1 1 0 0 1-1-1v-53a1 1 0 0 1 1-1H22a1 1 0 0 1 1 1v53a1 1 0 0 1-1 1zm-19.001-2H21v-51H2.999v51z"/><path d="M41.998 62.5H22a1 1 0 0 1-1-1v-54a1 1 0 1 1 2 0v53h17.998v-53a1 1 0 1 1 2 0v54a1 1 0 0 1-1 1z"/><path d="M61.999 62.5H41.998a1 1 0 0 1-1-1v-53a1 1 0 0 1 1-1h20.001a1 1 0 0 1 1 1v53a1 1 0 0 1-1 1zm-19.001-2h18.001v-51H42.998v51z"/><path d="M62.001 9.5H1.999a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h60.002a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1zm-59.002-2h58.002v-4H2.999v4zM7.001 36.502c-1.654 0-3-1.346-3-3s1.346-3 3-3 3 1.346 3 3-1.346 3-3 3zm0-4a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/><path d="M7.001 38.5a1 1 0 0 1-1-1v-1.998a1 1 0 1 1 2 0V37.5a1 1 0 0 1-1 1zM17.001 15.496H6.998a1 1 0 1 1 0-2h10.003a1 1 0 1 1 0 2zM17.001 18.496H6.998a1 1 0 1 1 0-2h10.003a1 1 0 1 1 0 2zM17.001 21.496H6.998a1 1 0 1 1 0-2h10.003a1 1 0 1 1 0 2zM17.001 50.496H6.998a1 1 0 1 1 0-2h10.003a1 1 0 1 1 0 2zM17.001 53.496H6.998a1 1 0 1 1 0-2h10.003a1 1 0 1 1 0 2zM17.001 56.496H6.998a1 1 0 1 1 0-2h10.003a1 1 0 1 1 0 2zM27.001 36.502c-1.654 0-3-1.346-3-3s1.346-3 3-3 3 1.346 3 3-1.346 3-3 3zm0-4a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/><path d="M27.001 38.5a1 1 0 0 1-1-1v-1.998a1 1 0 1 1 2 0V37.5a1 1 0 0 1-1 1z"/><g><path d="M37.001 15.496H26.998a1 1 0 1 1 0-2h10.003a1 1 0 1 1 0 2zM37.001 18.496H26.998a1 1 0 1 1 0-2h10.003a1 1 0 1 1 0 2zM37.001 21.496H26.998a1 1 0 1 1 0-2h10.003a1 1 0 1 1 0 2z"/></g><g><path d="M37.001 50.496H26.998a1 1 0 1 1 0-2h10.003a1 1 0 1 1 0 2zM37.001 53.496H26.998a1 1 0 1 1 0-2h10.003a1 1 0 1 1 0 2zM37.001 56.496H26.998a1 1 0 1 1 0-2h10.003a1 1 0 1 1 0 2z"/></g><g><path d="M47.001 36.502c-1.654 0-3-1.346-3-3s1.346-3 3-3 3 1.346 3 3-1.346 3-3 3zm0-4a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/><path d="M47.001 38.5a1 1 0 0 1-1-1v-1.998a1 1 0 1 1 2 0V37.5a1 1 0 0 1-1 1z"/></g><g><path d="M57.001 15.496H46.998a1 1 0 1 1 0-2h10.003a1 1 0 1 1 0 2zM57.001 18.496H46.998a1 1 0 1 1 0-2h10.003a1 1 0 1 1 0 2zM57.001 21.496H46.998a1 1 0 1 1 0-2h10.003a1 1 0 1 1 0 2z"/></g><g><path d="M57.001 50.496H46.998a1 1 0 1 1 0-2h10.003a1 1 0 1 1 0 2zM57.001 53.496H46.998a1 1 0 1 1 0-2h10.003a1 1 0 1 1 0 2zM57.001 56.496H46.998a1 1 0 1 1 0-2h10.003a1 1 0 1 1 0 2z"/></g></g></svg>
+                        <p id="cardtxt" class="text-center">changing room</p><span id="crdtext" >lockeer</span>
+                    </div>
+                  </div>
+                </a>
+            </div>
+            <div class="col py-3">
+                <a href="#">
+                <div class="card" >
+                    <div class="card-body ">
+                        <svg width="90px"height="90px" style="color: red;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><g data-name="air conditioner"><path d="M29 13a1 1 0 0 0-1 1v1a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h3a1 1 0 0 0 0-2H5a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h22a3 3 0 0 0 3-3v-1a1 1 0 0 0-1-1z"/><path d="M27 4H12a1 1 0 0 0 0 2h15a1 1 0 0 1 1 1v3a1 1 0 0 0 2 0V7a3 3 0 0 0-3-3z"/><path d="M25 7H7a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2zM26 11a1 1 0 0 0-1-1H7a1 1 0 0 0 0 2h18a1 1 0 0 0 1-1zM25 15a1 1 0 0 0 0-2 1 1 0 1 0 0 2zM22 13a1 1 0 1 0 1 1 1 1 0 0 0-1-1zM6 19a1 1 0 0 0-1 1v2a1 1 0 0 0 2 0v-2a1 1 0 0 0-1-1zM16 19a1 1 0 0 0-1 1v7a1 1 0 0 0 2 0v-7a1 1 0 0 0-1-1zM26 19a1 1 0 0 0-1 1v2a1 1 0 0 0 2 0v-2a1 1 0 0 0-1-1zM21 19a1 1 0 0 0-1 1v4a1 1 0 0 0 2 0v-4a1 1 0 0 0-1-1zM11 19a1 1 0 0 0-1 1v4a1 1 0 0 0 2 0v-4a1 1 0 0 0-1-1z"/></g></svg>
+                        <p id="cardtxt" class="text-center">Fully Air</p><span id="crdtext" >condioned</span>
+                    </div>
+                  </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col py-5">
+                <p class="h3 text-center text-white secndhhd">TRAINING /Programme</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#">
+                <img src="img/desktop-1920x1080 (1).jpg" alt="" width="350px" class=" rounded img-fluid">
+            </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#">
+                <img src="img/wallpaperflare.com_wallpaper.jpg" alt="" width="350px" class=" rounded img-fluid">
+            </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#">
+                <img src="img/wallpaperflare.com_wallpaper (2).jpg" alt="" width="350px" class="rounded img-fluid">
+            </a>
+            </div>
+        </div>
+    </div>
+    <div class="container py-5">
+        <section id="prices-cards" >
+            <div class="row py-5 ">
+                <div class="col h1 text-center text-white font-weight">MEMBERSHIP</div>
+            </div>
+            <div class="row py-5 ">
+                <div class="col py-3">
+                    <div class="card scndcared" style="width: 20rem;height: 30rem;" id="ending-cards">
+                        
+                        <div class="card-body ">
+                          <h5 class="card-title text-white text-center">MONTHLY PASS</h5>
+                          <p class="card-price  text-center prices">3500</p>
+                         <p class="text-center text-white card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minima ducimus, nam mollitia ratione dolorum perferendis eum illum omnis deserunt voluptas nostrum cum porro amet qui obcaecati.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col py-3">
+                    <div class="card scndcared" style="width: 20rem;height: 30rem;"id="ending-cards">
+                        
+                        <div class="card-body ">
+                          <h5 class="card-title text-white text-center">QUARTERLY PASS</h5>
+                          <p class="card-price  text-center prices">6500</p>
+                          <p class="text-center text-white card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio quaerat illum veritatis assumenda eligendi facere placeat debitis doloribus aut cupiditate eum, ullam illo minus dolorum eaque? Accusantium dolore adipisci, veritatis at quaerat beatae minus, aliquam corporis .</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col py-3">
+                    <div class="card scndcared" style="width: 20rem;height: 30rem;"id="ending-cards">
+                        
+                        <div class="card-body ">
+                          <h5 class="card-title text-white text-center">ANNUALY PASS</h5>
+                          <p class="card-price text-center prices">12000</p>
+                          <p class="text-center text-white card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum consequuntur optio, fugit numquam qui necessitatibus aut hic earum vitae praesentium omnis officia repellat, aliquam .</p>
+                         
+                        </div>
+                      </div>
+                </div>
+                <div class="row">
+                    <div class="col ">
+                        <div class="d-grid gap-2 col ">
+                            <button class="btn btn-danger" type="button">Button</button>
+                            
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+</body>
+</html>
